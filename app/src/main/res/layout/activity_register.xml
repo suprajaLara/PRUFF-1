@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Register">
+    tools:context="com.Pruff.pruff.Register">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -20,6 +20,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/pruff"/>
+
         <Button
             android:id="@+id/alreadyRegistered"
             android:layout_width="wrap_content"
@@ -30,11 +31,9 @@
             android:textAllCaps="false"
             android:layout_alignParentEnd="true"/>
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/pruff_register_logo">
         <LinearLayout
+            android:id="@+id/parent_linear"
+            android:layout_below="@+id/pruff_register_logo"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_width="match_parent"
@@ -54,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/firstName"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif-medium"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 />
@@ -85,7 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/lastName"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif-medium"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 />
@@ -116,7 +115,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Phone"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif-medium"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 />
@@ -136,36 +135,36 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/linear4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="20dp">
+        <!--<LinearLayout-->
+            <!--android:id="@+id/linear4"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_marginTop="20dp">-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/dob"
-                android:fontFamily="sans-serif-black"
-                android:textColor="#000000"
-                android:textSize="20sp"
-                />
-            <EditText
-                android:id="@+id/dobb"
-                android:paddingStart="15dp"
-                android:paddingEnd="5dp"
-                android:inputType="date"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/edtext_style"
-                android:layout_marginTop="10dp"
-                android:textSize="12sp"
-                android:fontFamily="sans-serif-medium"
-                android:textColor="#A9A9A9"/>
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/dob"-->
+                <!--android:fontFamily="sans-serif-black"-->
+                <!--android:textColor="#000000"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+            <!--<EditText-->
+                <!--android:id="@+id/dobb"-->
+                <!--android:paddingStart="15dp"-->
+                <!--android:paddingEnd="5dp"-->
+                <!--android:inputType="date"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@drawable/edtext_style"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:textSize="12sp"-->
+                <!--android:fontFamily="sans-serif-medium"-->
+                <!--android:textColor="#A9A9A9"/>-->
 
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
 
         <LinearLayout
             android:id="@+id/linear5"
@@ -178,7 +177,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/emailIdRegister"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="sans-serif-medium"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 />
@@ -198,87 +197,85 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/linear6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="20dp">
+        <!--<LinearLayout-->
+            <!--android:id="@+id/linear6"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_marginTop="20dp">-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/PassRegister"
-                android:fontFamily="sans-serif-black"
-                android:textColor="#000000"
-                android:textSize="20sp"
-                />
-            <EditText
-                android:id="@+id/passRegister"
-                android:paddingStart="15dp"
-                android:paddingEnd="5dp"
-                android:inputType="textPassword"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:background="@drawable/edtext_style"
-                android:layout_marginTop="10dp"
-                android:textSize="12sp"
-                android:fontFamily="sans-serif-medium"
-                android:textColor="#A9A9A9"/>
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/PassRegister"-->
+                <!--android:fontFamily="sans-serif-black"-->
+                <!--android:textColor="#000000"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+            <!--<EditText-->
+                <!--android:id="@+id/passRegister"-->
+                <!--android:paddingStart="15dp"-->
+                <!--android:paddingEnd="5dp"-->
+                <!--android:inputType="textPassword"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@drawable/edtext_style"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:textSize="12sp"-->
+                <!--android:fontFamily="sans-serif-medium"-->
+                <!--android:textColor="#A9A9A9"/>-->
 
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
 
-        <LinearLayout
-                android:id="@+id/linear7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="20dp">
+        <!--<LinearLayout-->
+                <!--android:id="@+id/linear7"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_marginTop="20dp">-->
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/PassRegisterAgain"
-                    android:fontFamily="sans-serif-black"
-                    android:textColor="#000000"
-                    android:textSize="20sp"
-                    />
-                <EditText
-                    android:inputType="textPassword"
-                    android:id="@+id/rePassRegister"
-                    android:paddingStart="15dp"
-                    android:paddingEnd="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:background="@drawable/edtext_style"
-                    android:layout_marginTop="10dp"
-                    android:textSize="12sp"
-                    android:fontFamily="sans-serif-medium"
-                    android:textColor="#A9A9A9"/>
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/PassRegisterAgain"-->
+                    <!--android:fontFamily="sans-serif-black"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:textSize="20sp"-->
+                    <!--/>-->
+                <!--<EditText-->
+                    <!--android:inputType="textPassword"-->
+                    <!--android:id="@+id/rePassRegister"-->
+                    <!--android:paddingStart="15dp"-->
+                    <!--android:paddingEnd="5dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:background="@drawable/edtext_style"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:fontFamily="sans-serif-medium"-->
+                    <!--android:textColor="#A9A9A9"/>-->
 
 
             </LinearLayout>
 
 
             <Button
-                android:id="@+id/Register"
+                android:id="@+id/next"
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/signUpReg"
+                android:text="@string/next"
                 android:background="@drawable/btn_style"
                 android:fontFamily="sans-serif-medium"
                 android:textColor="#000000"
                 android:textSize="15sp"
                 android:paddingRight="50dp"
-                android:paddingLeft="50dp"/>
+                android:paddingLeft="50dp"
+                android:layout_below="@+id/parent_linear"
+                android:layout_centerHorizontal="true"/>
 
 
-
-        </LinearLayout>
-
-        </ScrollView>
 
 
     </RelativeLayout>

@@ -1,52 +1,45 @@
 {
   "project_info": {
-    "project_number": "1049667380167",
-    "firebase_url": "https://pruff-app.firebaseio.com",
-    "project_id": "pruff-app",
-    "storage_bucket": "pruff-app.appspot.com"
+    "project_number": "287459465902",
+    "firebase_url": "https://pruff-f4d36.firebaseio.com",
+    "project_id": "pruff-f4d36",
+    "storage_bucket": "pruff-f4d36.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1049667380167:android:e06b2cf9688bb787",
+        "mobilesdk_app_id": "1:287459465902:android:47edc1adbb09b6da",
         "android_client_info": {
-          "package_name": "com.google.pruff"
+          "package_name": "com.Pruff.pruff"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1049667380167-j2vlqkuk2ci725i3mu2hn56mdvb36f0d.apps.googleusercontent.com",
+          "client_id": "287459465902-5l9me884ap16l34pl3mkrbat5m630kjl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.google.pruff",
+            "package_name": "com.Pruff.pruff",
             "certificate_hash": "0434c64b1b64939b6a082584a281bd1744a5ed50"
           }
         },
         {
-          "client_id": "1049667380167-0slre514bpj8hecteusqe3oc6k1jb3p6.apps.googleusercontent.com",
+          "client_id": "287459465902-krqc1o2i2knbueegra5an0lqrq201lif.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAoPCcW4lAh5OdFYI85KaafSz0yVmEuqWY"
+          "current_key": "AIzaSyCSozd7eF23AhUz8DWaAC_mwH5okviLzAI"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "1049667380167-0slre514bpj8hecteusqe3oc6k1jb3p6.apps.googleusercontent.com",
+              "client_id": "287459465902-krqc1o2i2knbueegra5an0lqrq201lif.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

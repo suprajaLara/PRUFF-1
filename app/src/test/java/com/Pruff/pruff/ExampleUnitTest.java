@@ -1,4 +1,4 @@
-package com.google.pruff;
+package com.Pruff.pruff;
 
 import org.junit.Test;
 

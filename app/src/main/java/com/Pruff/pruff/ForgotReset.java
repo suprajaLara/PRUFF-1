@@ -1,7 +1,9 @@
-package com.google.pruff;
+package com.Pruff.pruff;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.google.pruff.R;
 
 public class ForgotReset extends AppCompatActivity {
 

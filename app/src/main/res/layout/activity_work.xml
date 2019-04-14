@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Pruff.pruff.Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/work_work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/work"
+            android:layout_centerHorizontal="true"
+            android:textSize="40sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/work_desc"
+            android:layout_below="@+id/work_work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/work_desc"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:textColor="#A09D9D"
+            android:gravity="center"/>
+
+
+            <LinearLayout
+                android:id="@+id/parent_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/work_desc"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/child_lin_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/profession"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#A09D9D"
+                        android:textSize="15sp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        />
+
+                    <Spinner
+                        android:id="@+id/profession_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/spinner_style" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/child_lin_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/highQual"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#A09D9D"
+                        android:textSize="15sp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        />
+
+                    <Spinner
+                        android:id="@+id/highQual_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/spinner_style" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/child_lin_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stream"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#A09D9D"
+                        android:textSize="15sp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        />
+
+                    <Spinner
+                        android:id="@+id/stream_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/spinner_style" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/child_lin_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/field"
+                        android:fontFamily="sans-serif"
+                        android:textColor="#A09D9D"
+                        android:textSize="15sp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        />
+
+                    <Spinner
+                        android:id="@+id/field_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/spinner_style" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/work_next"
+                    android:layout_marginTop="14dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next"
+                    android:background="@drawable/btn_style"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:paddingRight="50dp"
+                    android:paddingLeft="50dp"
+                    android:layout_gravity="center_horizontal"/>
+
+            </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

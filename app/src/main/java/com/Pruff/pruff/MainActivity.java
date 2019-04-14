@@ -1,4 +1,4 @@
-package com.google.pruff;
+package com.Pruff.pruff;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -17,6 +17,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.pruff.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -69,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                startActivity(new Intent(MainActivity.this,Register.class));
+                startActivity(new Intent(MainActivity.this,About.class));
 
             }
         });

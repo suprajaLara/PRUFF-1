@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.google.pruff">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,20 +11,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OneTimePassword"></activity>
-        <activity android:name=".ForgotReset" />
-        <activity
-            android:name=".FirstOpenActivity"
-            android:label="@string/title_activity_first_open"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Register" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.Pruff.pruff.WaitPage"></activity>
+        <activity android:name="com.Pruff.pruff.FinalRegister" />
+        <activity android:name="com.Pruff.pruff.Philos" />
+        <activity android:name="com.Pruff.pruff.Work" />
+        <activity android:name="com.Pruff.pruff.About"></activity>
+        <activity android:name="com.Pruff.pruff.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.Pruff.pruff.OneTimePassword" />
+        <activity android:name="com.Pruff.pruff.ForgotReset" />
+        <activity
+            android:name="com.Pruff.pruff.FirstOpenActivity"
+            android:label="@string/title_activity_first_open"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.Pruff.pruff.Register" />
+        <activity android:name="com.Pruff.pruff.MainActivity" />
     </application>
 
 </manifest>

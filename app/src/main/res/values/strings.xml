@@ -6,13 +6,14 @@
     <string name="sign_up">SIGN UP</string>
     <string name="forgot_pass">forgot password</string>
     <string name="welcome">Welcome friends!!</string>
+
     <string name="title_activity_first_open">FirstOpenActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_signout">Sign Out</string>
 
     <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
     <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
@@ -26,4 +27,91 @@
     <string name="PassRegister">Password</string>
     <string name="PassRegisterAgain">Re-enter Password</string>
     <string name="signUpReg">Register</string>
+
+    <string name="plus">+</string>
+
+    <string name="next">next</string>
+
+    <string name="about">About</string>
+    <string name="about_desc">This won\'t take a minute.\nLet\'s do this!</string>
+
+    <string-array name="gender">
+
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+    <string-array name="motherTongue">
+
+        <item></item>
+        <item>Hindi</item>
+        <item>Telugu</item>
+        <item>Marathi</item>
+
+    </string-array>
+
+    <string-array name="frequentUse">
+
+        <item></item>
+        <item>20%</item>
+        <item>50%</item>
+        <item>100%</item>
+
+    </string-array>
+
+
+    <string name="genSpinTitle">Gender</string>
+    <string name="cityNames">City Of Residence</string>
+    <string name="mother">Mother Tongue</string>
+    <string name="Mobile">Mobile Name</string>
+    <string name="frequent">How frequently do you use mobile?</string>
+    <string name="Imei">IMEI</string>
+
+    <string name="work">Work</string>
+    <string name="work_desc">Work is worship.No?\nWell, it\'s important.</string>
+
+    <string name="profession">Profession</string>
+    <string-array name="profession_list">
+
+        <item></item>
+        <item>Student</item>
+        <item>Work from home</item>
+        <item>Employer</item>
+
+    </string-array>
+
+    <string name="highQual">Highest Qualification</string>
+    <string-array name="highQual_list">
+        <item></item>
+        <item>10th</item>
+        <item>Inter</item>
+        <item>UnderGrad</item>
+        <item>PostGrad</item>
+    </string-array>
+
+    <string name="stream">Stream</string>
+    <string-array name="strream_list">
+        <item></item>
+        <item>B.Tech</item>
+        <item>BBA</item>
+        <item>MBA</item>
+        <item>M.Tech</item>
+    </string-array>
+
+    <string name="field">Field Of Study</string>
+    <string-array name="field_list">
+        <item></item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>Mechanical</item>
+        <item>Bio-Tech</item>
+        <item>Civil</item>
+    </string-array>
+
+    <string name="last">Last</string>
+
+    <string name="submitted">Application Submitted</string>
+    <string name="submit_desc">To ensure a great experience for our\nmembers, we screen every application.\nYou will receive a email once\nyour profile is created.\nVerify your email before exiting to receive mail.</string>
 </resources>
