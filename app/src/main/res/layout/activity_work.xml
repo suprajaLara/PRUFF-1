@@ -37,12 +37,16 @@
             android:textColor="#A09D9D"
             android:gravity="center"/>
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/work_desc">
 
             <LinearLayout
                 android:id="@+id/parent_linear"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/work_desc"
+
                 android:layout_marginTop="30dp"
                 android:paddingLeft="12dp"
                 android:paddingRight="12dp"
@@ -162,6 +166,7 @@
                         android:background="@drawable/spinner_style" />
 
 
+
                 </LinearLayout>
 
                 <Button
@@ -179,6 +184,7 @@
                     android:layout_gravity="center_horizontal"/>
 
             </LinearLayout>
+        </ScrollView>
 
 
 
