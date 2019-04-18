@@ -1,9 +1,10 @@
-package com.Pruff.pruff;
+package com.google.pruffap;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,8 +20,6 @@ import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.pruff.R;
-
 import java.util.concurrent.TimeUnit;
 
 public class OneTimePassword extends AppCompatActivity {
@@ -60,7 +59,7 @@ public class OneTimePassword extends AppCompatActivity {
         s2 = i.getStringExtra("introORextro");
         s3 = i.getStringExtra("handyORdoit");
         s4 = i.getStringExtra("indieORmain");
-        phoneNumber = "+91"+i.getStringExtra("phoneNumber");
+        phoneNumber ="+91"+i.getStringExtra("phoneNumber");
         email = i.getStringExtra("email");
 
         verifyOTP = findViewById(R.id.verify_otp);
@@ -102,6 +101,7 @@ public class OneTimePassword extends AppCompatActivity {
 
                     @Override
                     public void onVerificationFailed(FirebaseException e) {
+                        Log.d("ssee",e.getMessage());
                         Toast.makeText(OneTimePassword.this, "verification failed", Toast.LENGTH_SHORT).show();
                     }
 
@@ -139,6 +139,8 @@ public class OneTimePassword extends AppCompatActivity {
                                         Toast.makeText(OneTimePassword.this, "Authentication successful.",Toast.LENGTH_SHORT).show();
 
                                         mRef = FirebaseDatabase.getInstance().getReference();
+//                                        user = FirebaseAuth.getInstance().getCurrentUser();
+//                                        Password = user.getUid();
                                         uid = mRef.push().getKey();
                                         UserDetails ud = new UserDetails(name,gender,city,tongue,mobileName,frequent,imei,profession,highQual,stream,field,s1,s2,s3,s4,phoneNumber,email,Password);
 

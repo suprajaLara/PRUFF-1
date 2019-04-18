@@ -1,4 +1,4 @@
-package com.Pruff.pruff;
+package com.google.pruffap;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +12,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.pruff.R;
 
 public class Work extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.Pruff.pruff;
+package com.google.pruffap;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -17,7 +17,6 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.pruff.R;
 
 public class MainActivity extends AppCompatActivity {
 

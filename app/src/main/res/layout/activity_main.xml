@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="com.Pruff.pruff.MainActivity"
+    tools:context="com.google.pruffap.MainActivity"
     android:animateLayoutChanges="true">
 
     <RelativeLayout

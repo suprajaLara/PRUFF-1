@@ -1,4 +1,4 @@
-package com.Pruff.pruff;
+package com.google.pruffap;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.widget.RelativeLayout;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.pruff.R;
 
 public class SplashScreen extends AppCompatActivity {
 

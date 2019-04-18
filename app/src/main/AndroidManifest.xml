@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.pruff">
+    package="com.google.pruffap">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,26 +11,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.Pruff.pruff.WaitPage"></activity>
-        <activity android:name="com.Pruff.pruff.FinalRegister" />
-        <activity android:name="com.Pruff.pruff.Philos" />
-        <activity android:name="com.Pruff.pruff.Work" />
-        <activity android:name="com.Pruff.pruff.About"></activity>
-        <activity android:name="com.Pruff.pruff.SplashScreen">
+        <activity android:name="com.google.pruffap.ForgotReset"></activity>
+        <activity android:name="com.google.pruffap.WaitPage" />
+        <activity android:name="com.google.pruffap.FinalRegister" />
+        <activity android:name="com.google.pruffap.Philos" />
+        <activity android:name="com.google.pruffap.Work" />
+        <activity android:name="com.google.pruffap.About" />
+        <activity android:name="com.google.pruffap.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.Pruff.pruff.OneTimePassword" />
-        <activity android:name="com.Pruff.pruff.ForgotReset" />
+        <activity android:name="com.google.pruffap.OneTimePassword" />
         <activity
-            android:name="com.Pruff.pruff.FirstOpenActivity"
+            android:name="com.google.pruffap.FirstOpenActivity"
             android:label="@string/title_activity_first_open"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.Pruff.pruff.Register" />
-        <activity android:name="com.Pruff.pruff.MainActivity" />
+        <activity android:name="com.google.pruffap.Register" />
+        <activity android:name="com.google.pruffap.MainActivity" />
     </application>
 
 </manifest>

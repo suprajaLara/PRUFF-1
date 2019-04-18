@@ -1,4 +1,4 @@
-package com.Pruff.pruff;
+package com.google.pruffap;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

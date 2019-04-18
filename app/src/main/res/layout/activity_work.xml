@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.Pruff.pruff.Register">
+    tools:context="com.google.pruffap.Register">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -171,7 +171,7 @@
 
                 <Button
                     android:id="@+id/work_next"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginTop="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/next"
@@ -181,7 +181,8 @@
                     android:textSize="15sp"
                     android:paddingRight="50dp"
                     android:paddingLeft="50dp"
-                    android:layout_gravity="center_horizontal"/>
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="30dp"/>
 
             </LinearLayout>
         </ScrollView>

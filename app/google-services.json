@@ -8,17 +8,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:287459465902:android:47edc1adbb09b6da",
+        "mobilesdk_app_id": "1:287459465902:android:05adab8cd7b14729",
         "android_client_info": {
-          "package_name": "com.Pruff.pruff"
+          "package_name": "com.google.pruffap"
         }
       },
       "oauth_client": [
         {
-          "client_id": "287459465902-5l9me884ap16l34pl3mkrbat5m630kjl.apps.googleusercontent.com",
+          "client_id": "287459465902-8rbcgp89bgkt6uea16p81ptsgsrr25p2.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.Pruff.pruff",
+            "package_name": "com.google.pruffap",
             "certificate_hash": "0434c64b1b64939b6a082584a281bd1744a5ed50"
           }
         },
